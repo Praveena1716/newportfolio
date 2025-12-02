@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Praveena Portfolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth;}
+body{background:black;color:white;font-family:poppins,sans-serif;}
+nav{background:#120d0d;}
+nav a{color:#e6e0e0;font-size:18px;font-weight:600;}
+nav a:hover{color:#00c6ff;}
+section{padding:100px 0;text-align:center;}
+.hero{animation:fadeIn 2s ease-in-out;}
+@keyframes fadeIn{0%{opacity:0;transform:translateY(40px);}100%{opacity:1;transform:translateY(0);}}
+.title{font-size:50px;font-weight:700;margin-bottom:10px;color:#00c6ff;animation:slideDown 2s;}
+@keyframes slideDown{0%{opacity:0;transform:translateY(-20px);}100%{opacity:1;transform:translateY(0);}}
+.btn-custom{background:linear-gradient(to right,#00c6ff,#0072ff);border-radius:50px;padding:10px 25px;font-weight:600;}
+.skills h3{animation:scaleUp 1.5s;}
+@keyframes scaleUp{0%{transform:scale(0.5);opacity:0;}100%{transform:scale(1);opacity:1;}}
+.follow i{font-size:27px;margin:0 10px;transition:.3s;}
+.follow i:hover{color:#00c6ff;transform:scale(1.3);} 
+footer{padding:20px 0;background:#120d0d;margin-top:50px;}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg fixed-top">
+<div class="container-fluid">
+<a class="navbar-brand" href="#home">Praveena p</a>
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"> <span class="navbar-toggler-icon"></span> </button>
+<div class="collapse navbar-collapse" id="nav">
+<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+<li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<section id="home" class="hero">
+<h5>Hello! I'm</h5>
+<h1 class="title">Praveena p</h1>
+<h2>Web Developer</h2>
+<p>I started my web Development Journey and love creativity & technology.</p>
+<button class="btn btn-custom me-2" onclick="location.href='#contact'">Contact Me</button>
+<button class="btn btn-custom">Resume</button>
+</section>
+
+<section id="about">
+<h1 class="title">About Me</h1>
+<h3>Web Developer</h3>
+<p>I started my Web Development Journey because I love creativity and technology.<br>Everyday I learn something new and grow stronger in my development skills.</p>
+</section>
+
+<section id="skills" class="skills">
+<h1 class="title">Skills</h1>
+<h3>HTML</h3>
+<h3>CSS</h3>
+<h3>JavaScript</h3>
+<h3>Basic Bootstrap</h3>
+</section>
+
+<section id="contact">
+<h1 class="title">Contact Me</h1>
+<p>contact@example.com</p>
+<p>7022233344</p>
+</section>
+
+<div class="follow text-center">
+<h3>Follow Me</h3>
+<i class="fa fa-facebook-official"></i>
+<i class="fa fa-instagram"></i>
+<i class="fa fa-linkedin"></i>
+<i class="fa fa-youtube"></i>
+</div>
+
+<footer class="text-center">Designed by Praveena</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
